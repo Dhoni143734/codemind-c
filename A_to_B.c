@@ -2,12 +2,9 @@
 int main(){
     int i,n,m;
     scanf("%d %d",&n,&m);
-    i=n;
-    while(i<=m){
+    for(i=n;i<=m;i++){
         printf("%d ",i);
-        i++;
     }
-    
     
     
     
